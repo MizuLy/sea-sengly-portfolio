@@ -37,7 +37,7 @@ export default function Project() {
       id="project"
       className="relative min-h-screen bg-black py-32 px-6 overflow-hidden"
     >
-      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-zinc-900 to-transparent opacity-50" />
+      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-zinc-900 to-transparent" />
       {/* Visual background detail - a very faint vertical line */}
       <div className="absolute left-1/2 top-0 w-px h-full bg-zinc-900 -translate-x-1/2 hidden md:block" />
 
