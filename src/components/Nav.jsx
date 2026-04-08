@@ -52,9 +52,14 @@ export default function Nav() {
 
           {/* Desktop Button / Mobile Toggle */}
           <div className="flex-1 flex justify-end items-center gap-4">
-            <button className="hidden md:block relative px-6 py-2 bg-white text-black text-[10px] font-bold tracking-widest uppercase rounded-full hover:bg-zinc-200 transition-all">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=senglysea12@gmail.com&su=Project+Inquiry"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:block relative px-6 py-2 bg-white text-black text-[10px] font-bold tracking-widest uppercase rounded-full hover:bg-zinc-200 transition-all"
+            >
               Get in Touch
-            </button>
+            </a>
 
             {/* Mobile Menu Trigger */}
             <button
@@ -91,9 +96,14 @@ export default function Nav() {
             </NavLink>
           ))}
 
-          <button className="mt-8 px-8 py-3 bg-white text-black text-xs font-bold tracking-[0.3em] uppercase rounded-full">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=senglysea12@gmail.com&su=Project+Inquiry"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 px-8 py-3 bg-white text-black text-xs font-bold tracking-[0.3em] uppercase rounded-full"
+          >
             Get in Touch
-          </button>
+          </a>
         </div>
       </div>
     </>
