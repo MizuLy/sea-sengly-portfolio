@@ -3,7 +3,7 @@ const projects = [
     title: "Taffy",
     category: "Social Networking Platform",
     image: "/kuku.jpeg",
-    tech: ["React", "Tailwind"],
+    tech: ["React", "Tailwind", "MySQL"],
     description: "A minimalist social space focused on clean interaction.",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     title: "Mizurage",
     category: "Car Store",
     image: "/huuu.jpeg",
-    tech: ["PHP"],
+    tech: ["PHP", "MySQL"],
     description: "My final project during freshman year, 2nd semester.",
   },
 ];
