@@ -17,7 +17,7 @@ const projects = [
   {
     title: "L'Essence",
     category: "High-Fashion Brand",
-    image: "/wazzup.jpeg",
+    image: "/lessencekh.png",
     tech: ["React", "Tailwind"],
     description:
       "A luxury clothing store that import all high-fashion clothes from popular brands.",
