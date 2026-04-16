@@ -10,7 +10,7 @@ export default function Nav() {
   };
 
   const navLinks = [
-    { name: "HOME", to: "/#home", offset: true },
+    { name: "HOME", to: "/#home", isHome: true },
     { name: "ABOUT", to: "/#about" },
     { name: "PROJECTS", to: "/#project" },
     { name: "CONTACT", to: "/#contact" },
@@ -39,9 +39,9 @@ export default function Nav() {
                   className="hover:text-white transition-colors"
                 >
                   <NavLink
-                    smooth={!link.offset}
+                    smooth
                     to={link.to}
-                    onClick={link.offset ? scrollToTop : null}
+                    onClick={link.isHome ? scrollToTop : undefined}
                   >
                     {link.name}
                   </NavLink>
