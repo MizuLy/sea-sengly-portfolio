@@ -10,7 +10,7 @@ const projects = [
     title: "Cafe Jor",
     category: "Service Management System",
     image: "/cafejor.png",
-    tech: ["React", "Node", "MySQL"],
+    tech: ["React", "Express", "MySQL"],
     description:
       "Streamlined point-of-sale system for modern cafe environments.",
   },
@@ -33,8 +33,15 @@ const projects = [
     title: "KS GROUP",
     category: "Inventory Management System",
     image: "/chill.jpg",
-    tech: ["React", "Node", "MySQL"],
+    tech: ["React", "Express", "MySQL"],
     description: "My personal project for my current business.",
+  },
+  {
+    title: "School Management System API",
+    category: "School Management System",
+    image: "",
+    tech: ["Express", "Prisma", "PostgreSQL"],
+    description: "API for school management system.",
   },
 ];
 
