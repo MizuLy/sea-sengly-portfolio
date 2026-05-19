@@ -12,8 +12,10 @@ import {
   DiJava,
   DiMongodb,
   DiMysql,
+  DiPostgresql,
 } from "react-icons/di";
 import { SiVuedotjs, SiTailwindcss, SiExpress, SiSqlite } from "react-icons/si";
+import { IoPrism } from "react-icons/io5";
 
 const stacks = [
   {
@@ -22,20 +24,26 @@ const stacks = [
       { icon: <DiHtml5 />, name: "HTML" },
       { icon: <DiCss3 />, name: "CSS" },
       { icon: <DiJavascript1 />, name: "JS" }, // Shortened for cleaner UI
-      { icon: <SiVuedotjs />, name: "Vue.js" },
+      { icon: <SiVuedotjs />, name: "Vue" },
       { icon: <DiReact />, name: "React" },
       { icon: <SiTailwindcss />, name: "Tailwind" },
     ],
   },
   {
-    category: "Backend & DB", // Combined to save vertical space
+    category: "Backend", // Combined to save vertical space
     items: [
-      { icon: <DiNodejs />, name: "Node.js" },
+      { icon: <DiNodejs />, name: "Node" },
       { icon: <SiExpress />, name: "Express" },
       { icon: <DiJava />, name: "Java" },
       { icon: <DiLaravel />, name: "Laravel" },
+    ],
+  },
+  {
+    category: "Database", // Combined to save vertical space
+    items: [
       { icon: <DiMongodb />, name: "MongoDB" },
       { icon: <DiMysql />, name: "MySQL" },
+      { icon: <DiPostgresql />, name: "PostgreSQL" },
     ],
   },
   {
@@ -43,6 +51,7 @@ const stacks = [
     items: [
       { icon: <DiGithubBadge />, name: "Github" },
       { icon: <DiGit />, name: "Git" },
+      { icon: <IoPrism />, name: "Prisma" },
     ],
   },
 ];
