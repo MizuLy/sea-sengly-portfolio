@@ -53,7 +53,7 @@ const projects = [
   {
     title: "Fun Form Generator",
     category: "Form",
-    image: "/fromgenerator.png",
+    image: "/formgenerator.png",
     tech: ["Express", "Prisma", "PostgreSQL"],
     description: "Fun project to mess with friends.",
   },
