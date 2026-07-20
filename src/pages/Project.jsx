@@ -43,6 +43,20 @@ const projects = [
     tech: ["Express", "Prisma", "PostgreSQL"],
     description: "API for school management system.",
   },
+  {
+    title: "e-Commerce store API",
+    category: "E-Commerce",
+    image: "",
+    tech: ["Express", "Prisma", "PostgreSQL"],
+    description: "API for E-Commerce store.",
+  },
+  {
+    title: "Fun Form Generator",
+    category: "Form",
+    image: "/fromgenerator.png",
+    tech: ["Express", "Prisma", "PostgreSQL"],
+    description: "Fun project to mess with friends.",
+  },
 ];
 
 export default function Project() {
