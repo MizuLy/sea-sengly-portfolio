@@ -21,6 +21,7 @@ const projects = [
     tech: ["React", "Tailwind"],
     description:
       "A luxury clothing store that import all high-fashion clothes from popular brands.",
+    link: "lessencekh.vercel.app",
   },
   {
     title: "Mizurage",
@@ -44,7 +45,7 @@ const projects = [
     description: "API for school management system.",
   },
   {
-    title: "e-Commerce store API",
+    title: "E-Commerce store API",
     category: "E-Commerce",
     image: "",
     tech: ["Express", "Prisma", "PostgreSQL"],
@@ -56,6 +57,22 @@ const projects = [
     image: "/formgenerator.png",
     tech: ["Express", "Prisma", "PostgreSQL"],
     description: "Fun project to mess with friends.",
+    link: "form-generator-hehe.vercel.app",
+  },
+  {
+    title: "Ramy",
+    category: "Note app",
+    image: "/ramy.png",
+    tech: ["Express", "Prisma", "PostgreSQL"],
+    description: "Fun project I did for fun.",
+    link: "ramy-daily.vercel.app",
+  },
+  {
+    title: "Movie watchlist API",
+    category: "Movie",
+    image: "",
+    tech: ["Express", "Prisma", "PostgreSQL"],
+    description: "API for Movie Watchlist",
   },
 ];
 
@@ -124,7 +141,13 @@ export default function Project() {
 
                 {/* View Project Action */}
                 <a
-                  href="#"
+                  href={
+                    project.link?.startsWith("http")
+                      ? project.link
+                      : `https://${project.link}`
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-2 text-[10px] uppercase tracking-widest font-bold text-zinc-600 hover:text-white border-b border-zinc-800 hover:border-white pb-1 transition-all"
                 >
                   View Case
