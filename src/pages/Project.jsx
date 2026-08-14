@@ -13,6 +13,7 @@ const projects = [
     tech: ["React", "Express", "MySQL"],
     description:
       "Streamlined point-of-sale system for modern cafe environments.",
+    link: "cafe-pos-kjel.vercel.app",
   },
   {
     title: "L'Essence",
