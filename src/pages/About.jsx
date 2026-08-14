@@ -14,8 +14,15 @@ import {
   DiMysql,
   DiPostgresql,
 } from "react-icons/di";
-import { SiVuedotjs, SiTailwindcss, SiExpress, SiSqlite } from "react-icons/si";
+import {
+  SiVuedotjs,
+  SiTailwindcss,
+  SiExpress,
+  SiSqlite,
+  SiBootstrap,
+} from "react-icons/si";
 import { IoPrism } from "react-icons/io5";
+import { BiLogoSpringBoot } from "react-icons/bi";
 
 const stacks = [
   {
@@ -27,6 +34,7 @@ const stacks = [
       { icon: <SiVuedotjs />, name: "Vue" },
       { icon: <DiReact />, name: "React" },
       { icon: <SiTailwindcss />, name: "Tailwind" },
+      { icon: <SiBootstrap />, name: "Bootstrap" },
     ],
   },
   {
@@ -35,6 +43,7 @@ const stacks = [
       { icon: <DiNodejs />, name: "Node" },
       { icon: <SiExpress />, name: "Express" },
       { icon: <DiJava />, name: "Java" },
+      { icon: <BiLogoSpringBoot />, name: "Spring Boot" },
       { icon: <DiLaravel />, name: "Laravel" },
     ],
   },
