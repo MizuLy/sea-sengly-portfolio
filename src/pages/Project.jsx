@@ -41,14 +41,14 @@ const projects = [
   {
     title: "School Management System API",
     category: "School Management System",
-    image: "",
+    image: "/kwkwkkw.jpg",
     tech: ["Express", "Prisma", "PostgreSQL"],
     description: "API for school management system.",
   },
   {
     title: "E-Commerce store API",
     category: "E-Commerce",
-    image: "",
+    image: "veryImportant.jpg",
     tech: ["Express", "Prisma", "PostgreSQL"],
     description: "API for E-Commerce store.",
   },
@@ -56,7 +56,7 @@ const projects = [
     title: "Fun Form Generator",
     category: "Form",
     image: "/formgenerator.png",
-    tech: ["Express", "Prisma", "PostgreSQL"],
+    tech: ["React", "Express", "Prisma", "PostgreSQL"],
     description: "Fun project to mess with friends.",
     link: "form-generator-hehe.vercel.app",
   },
@@ -64,16 +64,24 @@ const projects = [
     title: "Ramy",
     category: "Note app",
     image: "/ramy.png",
-    tech: ["Express", "Prisma", "PostgreSQL"],
+    tech: ["React", "Express", "Prisma", "PostgreSQL"],
     description: "Fun project I did for fun.",
     link: "ramy-daily.vercel.app",
   },
   {
     title: "Movie watchlist API",
     category: "Movie",
-    image: "",
+    image: "/OO.jpg",
     tech: ["Express", "Prisma", "PostgreSQL"],
     description: "API for Movie Watchlist",
+  },
+  {
+    title: "Yappa Yappa",
+    category: "Social Media",
+    image: "/yappa.jpg",
+    tech: ["React", "Express", "Prisma", "PostgreSQL"],
+    description:
+      "A social media app with hybrid style and functionality of FB, IG, and X",
   },
 ];
 
@@ -121,7 +129,7 @@ export default function Project() {
                   {project.tech.map((t) => (
                     <span
                       key={t}
-                      className="text-[7px] uppercase tracking-widest bg-white text-black px-2 py-1 font-bold"
+                      className="text-[8px] uppercase tracking-widest bg-white text-black px-2 py-1 font-bold"
                     >
                       {t}
                     </span>
