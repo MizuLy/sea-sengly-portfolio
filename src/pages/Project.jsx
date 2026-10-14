@@ -58,7 +58,7 @@ const projects = [
     image: "/formgenerator.png",
     tech: ["React", "Express", "Prisma", "PostgreSQL"],
     description: "Fun project to mess with friends.",
-    link: "form-generator-hehe.vercel.app",
+    link: "form-issuer.vercel.app",
   },
   {
     title: "Ramy",
@@ -82,6 +82,7 @@ const projects = [
     tech: ["React", "Express", "Prisma", "PostgreSQL"],
     description:
       "A social media app with hybrid style and functionality of FB, IG, and X",
+    link: "yappa-yappa.vercel.app",
   },
 ];
 
