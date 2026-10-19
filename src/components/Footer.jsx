@@ -27,6 +27,10 @@ export default function Footer() {
           <div className="w-1 h-1 rounded-full bg-zinc-800" />
           <div className="w-1 h-1 rounded-full bg-zinc-800" />
         </div>
+
+        <p className="text-[9px] tracking-[0.3em] text-zinc-700 hover:text-zinc-400 transition-colors">
+          psst… try typing &quot;play&quot;
+        </p>
       </div>
     </footer>
   );

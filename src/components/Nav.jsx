@@ -1,12 +1,29 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { HashLink as NavLink } from "react-router-hash-link";
 import { FiMenu, FiX } from "react-icons/fi"; // Install react-icons if not already
+import { useGame } from "../context/GameContext";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const { openGame } = useGame();
+  const logoClicks = useRef({ count: 0, timer: null });
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     setIsOpen(false);
+  };
+
+  // Easter egg: 5 quick clicks on the logo opens the game
+  const handleLogoClick = () => {
+    scrollToTop();
+    const clicks = logoClicks.current;
+    clicks.count += 1;
+    clearTimeout(clicks.timer);
+    clicks.timer = setTimeout(() => (clicks.count = 0), 1500);
+    if (clicks.count >= 5) {
+      clicks.count = 0;
+      openGame();
+    }
   };
 
   const navLinks = [
@@ -23,7 +40,7 @@ export default function Nav() {
           {/* Logo */}
           <div className="flex-1">
             <h1
-              onClick={scrollToTop}
+              onClick={handleLogoClick}
               className="text-white font-light tracking-[0.3em] text-sm cursor-pointer hover:opacity-70 transition-opacity"
             >
               SENGLY<span className="font-bold">.DEV</span>
