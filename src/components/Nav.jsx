@@ -41,7 +41,7 @@ export default function Nav() {
           <div className="flex-1">
             <h1
               onClick={handleLogoClick}
-              className="text-white font-light tracking-[0.3em] text-sm cursor-pointer hover:opacity-70 transition-opacity"
+              className="w-fit text-white font-light tracking-[0.3em] text-sm cursor-pointer hover:opacity-70 transition-opacity"
             >
               SENGLY<span className="font-bold">.DEV</span>
             </h1>

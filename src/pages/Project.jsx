@@ -55,7 +55,7 @@ const projects = [
   {
     title: "Fun Form Generator",
     category: "Form",
-    image: "/formgenerator.png",
+    image: "/Form.jpg",
     tech: ["React", "Express", "Prisma", "PostgreSQL"],
     description: "Fun project to mess with friends.",
     link: "form-issuer.vercel.app",
@@ -63,7 +63,7 @@ const projects = [
   {
     title: "Ramy",
     category: "Note app",
-    image: "/ramy.png",
+    image: "/Ramy.jpg",
     tech: ["React", "Express", "Prisma", "PostgreSQL"],
     description: "Fun project I did for fun.",
     link: "ramy-daily.vercel.app",
@@ -78,7 +78,7 @@ const projects = [
   {
     title: "Yappa Yappa",
     category: "Social Media",
-    image: "/yappa.jpg",
+    image: "/Yappa.jpg",
     tech: ["React", "Express", "Prisma", "PostgreSQL"],
     description:
       "A social media app with hybrid style and functionality of FB, IG, and X",
